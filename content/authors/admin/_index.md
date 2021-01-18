@@ -1,17 +1,17 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: T. Jeffrey Cole
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Postdoctoral fellow in computational biology
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
+- name: University of Texas at Austin
+  url: https://www.utexas.edu/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
