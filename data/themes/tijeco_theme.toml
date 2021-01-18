@@ -1,0 +1,24 @@
+# Theme metadata
+name = "tijeco_theme"
+
+# Is theme light or dark?
+light = false
+
+# Primary
+primary = "#03ce87"
+# primary = "hsl(339, 90%, 68%)"
+
+# Menu
+menu_primary = "#f6eee9"
+menu_text = "#000"
+menu_text_active = "#000"
+menu_title = "#000"
+
+# Links
+link = "#707070"
+link_hover = "#000"
+# link_decoration = "underline"
+
+# Home sections
+home_section_odd = "hsla(231, 15%, 18%, 1)"
+home_section_even = "hsla(231, 15%, 16%, 1)"
