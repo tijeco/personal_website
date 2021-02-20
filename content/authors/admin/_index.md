@@ -6,7 +6,7 @@ title: T. Jeffrey Cole
 superuser: true
 
 # Role/position/tagline
-role: Postdoctoral fellow in computational biology
+role: Postdoctoral fellow 
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -14,26 +14,25 @@ organizations:
   url: https://www.utexas.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include venom biology, bioinformatics, molecular evolution, genomics, and deep learning.
 
 # Interests to show in About widget
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Spider venom evolution
+- Bioinformatics
+- Molecular evolution
+- Genomics
+- Deep learning
 
 # Education to show in About widget
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: PhD in Biology
+    institution: East Carolina University
+    year: 2021
+  - course: BS in Biology
+    institution: Samford Universit
+    year: 2016
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -70,8 +69,11 @@ email: ""
 highlight_name: false
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am an evolutionary biologist with a particular interest in the molecular evolution of toxin proteins. I completed my PhD at East Carolina University with Michael Brewer as my advisor. For my dissertation research, I developed bioinformatics and deep learning implementations to identify and characterize venom proteins in wandering spiders. I am currently a postdoctoral researcher in at the University of Texas at Austin, where I am working with Clause Wilke in collaboration with Bryan Davies to develop bioinformatics and deep learning techniques to characterize and design antimicrobial peptides.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+
+
+
+
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
