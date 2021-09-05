@@ -71,9 +71,4 @@ highlight_name: false
 
 I am an evolutionary biologist with a particular interest in the molecular evolution of toxin proteins. I completed my PhD at East Carolina University with Michael Brewer as my advisor. For my dissertation research, I developed bioinformatics and deep learning implementations to identify and characterize venom proteins in wandering spiders. I am currently a postdoctoral researcher at the University of Texas at Austin, where I am working with Clause Wilke in collaboration with Bryan Davies to develop bioinformatics and deep learning techniques to characterize and design antimicrobial peptides.
 
-
-
-
-
-
 <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
