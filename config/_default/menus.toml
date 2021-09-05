@@ -38,9 +38,10 @@
   #url = "#contact"
   #weight = 60
 
+
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/media/resume.pdf` and uncomment the lines below.
  [[main]]
     name = "CV"
-    url = "media/resume.pdf"
+    url = "cv/T_Jeffrey_Cole.CV.pdf"
     weight = 70
