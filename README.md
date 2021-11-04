@@ -13,14 +13,12 @@ Hugo makes writing blogs in markdown very easy, but most of the things I conside
 2. Convert the notebook to a markdown file
 ```bash
 jupyter nbconvert name_of_blog_goes_here.ipynb --to markdown --NbConvertApp.output_files_dir=.
-# Copy the contents of Untitled.md to index.md:
-mv name_of_blog_goes_here.md index.md
-
-
-
-# Remove the temporary file:
-
 ```
+
+```bash
+mv name_of_blog_goes_here.md index.md
+```
+
 
 3. Make sure to add the hugo template header to the top of the markdown before pushing it to github
 
