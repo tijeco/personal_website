@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1742228389.23664 "cv/main.tex" "cv/main.pdf" "main" 1742228389.83749 0
+["pdflatex"] 1742228539.26061 "cv/main.tex" "cv/main.pdf" "main" 1742228539.96027 0
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -120,9 +120,9 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1742103942 5464465 652a4f4f88065cc3d71215e270211d45 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1742103993 3345757 03021a9ef0263507773bbb1905bbec35 ""
   "/usr/local/texlive/2025/texmf.cnf" 1742103929 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "cv/main.aux" 1742228389.75605 257 51b5e24c6654e7413a5d3e34daff6903 "pdflatex"
-  "cv/main.out" 1742228389.63105 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "cv/main.tex" 1742228387.85405 14950 25d68775bc4184637c6e810d4749ed34 ""
+  "cv/main.aux" 1742228539.83505 257 51b5e24c6654e7413a5d3e34daff6903 "pdflatex"
+  "cv/main.out" 1742228539.70805 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "cv/main.tex" 1742228538.17705 14950 9c2f1a3cd4b47ab143d535d3cdc253f0 ""
   (generated)
   "cv/main.aux"
   "cv/main.log"
