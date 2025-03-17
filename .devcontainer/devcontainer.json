@@ -1,0 +1,19 @@
+{
+    "name": "My Dev Container",
+    "dockerFile": "Dockerfile",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "customizations": {
+        "codespaces": {
+          "openFiles": []
+        },
+        "vscode": {
+          "extensions": [
+            "ms-toolsai.jupyter",
+            "ms-python.python",
+            "mathematic.vscode-pdf"
+          ]
+        }
+      }
+}
