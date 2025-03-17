@@ -18,6 +18,8 @@
 \usepackage{tocloft}
 \usepackage{graphicx}
 \usepackage{multirow}
+\usepackage{multicol} % Enables multi-column formatting
+
 \usepackage[utf8]{inputenc}
 \usepackage{tabularx}
 \usepackage[margin=0.5in,includefoot]{geometry}% http://ctan.org/pkg/geometry
@@ -32,7 +34,7 @@
 
 \usepackage{setspace}
 \usepackage{lipsum}
-
+\usepackage{hyperref}
 
 \title{Aparna-CV}
 %-----------------------------------------------------------
@@ -116,7 +118,7 @@
 \end{center}
 % \begin{tabular*}{7in}{l@{\extracolsep{\fill}}l}
 % (770) 324-7521  \hfill  1994L Hyde Dr, Greenville NC\\
-www.tije.co  \hfill  t.jeffrey.cole@utexas.edu
+github.com/tijeco  \hfill  jffcole7@gmail.com
 % \end{tabular*}
 \\
 \renewcommand{\baselinestretch}{2.0}
@@ -155,259 +157,231 @@ www.tije.co  \hfill  t.jeffrey.cole@utexas.edu
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\resheading{Publications}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \pubheading{Journal Articles}
-
-\begin{hangparas}{.25in}{1}
-
-  Cohen CM., Noble K, \textbf{Cole TJ}, Brewer MS. (2020). Ultraconserved elements help resolve the phylogeny of an ancient radiation of venomous flies (Diptera: Asilidae). \textit{bioRxiv}.
-  
-  Cohen CM, \textbf{Cole TJ}, Brewer MS. (2020). Pick your poison: molecular evolution of venom proteins in Asilidae (Insecta: Diptera). \textit{Toxins} 12.12 (2020): 738.
-
-  \textbf{Cole TJ}, Brewer MS. (2019). toxify: a deep learning approach for classifying animal venom proteins. \textit{PeerJ}, 7, p.e7200.
-
-  \textbf{Cole TJ}, Brewer MS. (2018) FUSTr: A tool for finding gene Families Under Selection in
-Transcriptome databases. \textit{PeerJ}, 6, e4234.
-
-\textbf{Cole TJ}, Hataway RA. (2016). Prescribed burning affects a measure of fitness in Ctenus
-hibernalis (Araneae: Ctenidae) at Oak Mountain State Park, Shelby County,
-Alabama. \textit{Southeastern Naturalist}. 15(4):646–652.
-
-\end{hangparas}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\resheading{Presentations}
+\resheading{Experience}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{itemize}
 
-\item \heading[2020]{Molecular evolution of inhibitor cystine knot toxins in the genomes of spiders}
-   \textit{Oral presentation}
+
+  \item \heading[Feb 2022 - present]{Senior Bioinformatics Engineer}
+  ExosomeDx (Bio-Techne), Austin TX
+
     \begin{subitems}
-      \item \nth{44} annual meeting of the American Arachnological society, virtual via Davis CA.
+      \item \textbf{Multi-omic liquid biopsy bioinformatics platform}
+      \begin{itemize}
+        \item[$\diamond$] Lead developer of bioinformatics pipelines for RNA fusions and splice variants in RNAseq datasets
+      \end{itemize}
+      \begin{itemize}
+        \item[$\diamond$] Lead coordinator of AWS infrastructure and pipeline management through Seqera platform
+      \end{itemize}
+      \begin{itemize}
+        \item[$\diamond$] Contributor to nextflow pipelines for RNAseq gene quantification, differential gene expression, and cfDNA methylation analysis
+      \end{itemize}
+    \end{subitems}
+
+    \begin{subitems}
+      \item \textbf{Biomarker discovery Machine learning platform}
+      \begin{itemize}
+        \item[$\diamond$] Project coordinator for interdivisional machine learning competition for biomarker discovery using TCGA data
+      \end{itemize}
+      \begin{itemize}
+        \item[$\diamond$] Lead developer of machine learning models and algorithms for biomarker discovery using multi-omic liquid biopsy data
+      \end{itemize}
     \end{subitems}
 
 
-\item \heading[2019]{Comparative venom gland transcriptomics of wandering spiders (Araneae:Ctenidae)}
-   \textit{Poster presentation}
+\item \heading[Jan 2021 - Jan 2022]{Postdoctoral Research Fellow}
+  University of Texas at Austin, Austin TX
     \begin{subitems}
-      \item \nth{73} annual meeting of the Society for the Study of Evolution, Providence RI.
+      \item \textbf{Discovery of antimicrobial peptides in bacterial genomic datasets}
+      \begin{itemize}
+        \item[$\diamond$] Developer of bioinformatics pipeline to identify small novel antimicrobial peptides in bacterial genome assemblies
+      \end{itemize}
     \end{subitems}
 
- \item \heading[2019]{Phylogenomics of the venomous assassin flies using ultracovserved elements}
-   \textit{Poster presentation (co-author)}
     \begin{subitems}
-      \item presented by Chris Cohen
-      \item \nth{73} annual meeting of the Society for the Study of Evolution, Providence RI.
-    \end{subitems}
-    
-    
-  \item \heading[2018]{Comparative venom gland transcriptomics of the U.S Ctenidae (Order:Araneae)}
-   \textit{Oral presentation}
-    \begin{subitems}
-      \item \nth{42} annual meeting of the American Arachnological society, Ypsilanti MI.
-    \end{subitems}
-    
-     \item \heading[2018]{Using deep learning to classify animal venom proteins}
-   \textit{Oral presentation}
-    \begin{subitems}
-      \item \nth{79} annual meeting of the Association for Southeastern Biologists conference,\\ Myrtle Beach, SC.
-      
-    \end{subitems}
-    
-    \item \heading[2017]{Signatures of positive selection in venom proteins of Hawaiian Tetragnatha (Araneae:Tetragnathidae)}
-
-   \textit{Poster presentation}
-    \begin{subitems}
-      \item \nth{35} annual Society for Molecular Biology and Evolution, Austin, TX
-      
-    \end{subitems}
-    
-    \item \heading[2016]{Characterization of the venom proteome for the wandering spider Ctenus hibernalis (Araneae: Ctenidae)}
-\textit{Oral presentation}
-    \begin{subitems}
-      \item Venom Week V, Greenville NC
-      
-    \end{subitems}
-   \textit{Poster presentation}
-    \begin{subitems}
-      \item \nth{93} annual Meeting of the Alabama Academy of Science, Florence AL
-        \begin{itemize}
-\item[$\diamond$] Winner of Best Poster in Biological Sciences Award
-
-\end{itemize}
-      \item \nth{77} annual meeting of the Association for Southeastern Biologists conference, Concord NC
-      \item \nth{20} annual meeting of the International Congress of Arachnology, Golden CO
-          \end{subitems}
-    
-    \item \heading[2015]{Molecular evolution of sperm proteins in \textit{Danaus}
-butterflies}
-\textit{Oral presentation}
-    \begin{subitems}
-      \item Samford University Summer Research Symposium
-    \end{subitems}
-   \textit{Poster presentation}
-    \begin{subitems}
-      \item University of Kansas Summer Undergraduate Research Poster Session
-      \item \nth{5} annual Emerging Researchers National STEM Conference, Washington D.C.
-    \end{subitems}
-    
-\item \heading[2015]{ Density and fitness of \textit{Ctenus hibernalis} (Aranea:
-Ctenidae) in a montane longleaf pine ecosystem undergoing restoration}
-\textit{Oral presentation}
-    \begin{subitems}
-      \item Samford University Summer Research Symposium
-    \end{subitems}
-   \textit{Poster presentation}
-    \begin{subitems}
-      \item \nth{92} annual Meeting of the Alabama Academy of Science, Livingston,
-AL
-      \item \nth{4} annual Emerging Researchers National STEM Conference, Washington D.C.
+      \item \textbf{Design of antimicrobial peptides with protein language deep learning models}
+      \begin{itemize}
+        \item[$\diamond$] Lead contributor of analysis to combine libraries of synthetic peptides with machine learning models to inform design of peptides with optimal antimicrobial properties
+      \end{itemize}
     \end{subitems}
 
-       \item \heading[2014]{Effects of surface runoff from a landfill containing coal
-ash on water chemistry in adjacent surface water in Perry County, Alabama}
-\textit{Oral presentation}
     \begin{subitems}
-      \item Perry County City Hall meeting
-      \item Samford University Summer Research Symposium
-      
-      
+      \item \textbf{Integration of deep protein language models with 3D structural models}
+      \begin{itemize}
+        \item[$\diamond$] Project coordinator for the development of machine learning models that aggregate information from sequence based models and structure based models to improve protein function prediction
+      \end{itemize}
     \end{subitems}
-   \textit{Poster presentation}
-    \begin{subitems}
-      \item \nth{75} annual Association for Southeastern Biologists conference, Spartanburg SC
-        \begin{itemize}
-\item[$\diamond$] Winner of Elsie Quarterman-Catherine Keever Poster Award
 
 \end{itemize}
  
-    \end{subitems}
-    
-\end{itemize}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\resheading{Society Memberships }
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-{\setstretch{1.5}
-Society for Molecular Biology and Evolution  \cftdotfill{\cftdotsep} 2017-present\\
-American Arachnological Society  \cftdotfill{\cftdotsep}2016-present\\
-North American Society of Toxinology \cftdotfill{\cftdotsep} 2015-present\\
-American Chemical Society  \cftdotfill{\cftdotsep} 2015-present\\
-Association for Southeastern Biologists   \cftdotfill{\cftdotsep} 2015-present\\
-Alabama Academy of Science  \cftdotfill{\cftdotsep} 2013-2016\\
- \par
-}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\resheading{Awards \& Grants }
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-{\setstretch{1.5}
-American Museum of Natural History Theodore Roosevelt Memorial Grant (\$1,000) \cftdotfill{\cftdotsep}2017\\
-East Carolina University biodiversity initiative internal grant for outreach (\$200) \cftdotfill{\cftdotsep}2017\\
-NSF Graduate Research Fellowship  (\$132,000) \cftdotfill{\cftdotsep}2016\\
-Brakefield Textbook scholarship (\$100) \cftdotfill{\cftdotsep}2016\\
-NSF REU Summer research grant, University of Kansas (\$5,500) \cftdotfill{\cftdotsep}2015\\
-NSF REU Summer research grant, Samford University (\$5,500) \cftdotfill{\cftdotsep}2014\\
-Samford University Summer Propst Research scholar (\$2,000) \cftdotfill{\cftdotsep}2013\\ \par
-}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\resheading{Teaching}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{itemize}
-
-  \item \heading[2018-2020]{Principles of Biology Laboratory, BIOL 1101, graduate teaching assistant}
-    \begin{subitems}
-      \item{East Carolina University}
-      \item{Utilizing Argument Driven Inquiry to guide students in experiments related to molecular biology, bioenergetics, cellular structure, physiology, and the molecular basis of inheritance and control of gene expression}
-    \end{subitems}
-    
-    \item \heading[2017-2019]{Practical computing, BIOL 6220, guest lecturer}
-    \begin{subitems}
-      \item{East Carolina University}
-      \item{Best practices for reproducibility in bioinformatics}
-      \item{Phylogenetic tests for positive selection}
-    \end{subitems}
-    
-    \item \heading[2019]{Population Biology, BIOL 350, guest lecturer}
-    \begin{subitems}
-      \item{Samford University}
-      \item{Techniques and principles of population genomics}
-    \end{subitems}
-    
-    
-\end{itemize}
-
-
-
-
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\resheading{Service \& Outreach}
+\resheading{Publications}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{itemize}
+% \pubheading{Journal Articles}
+Full list here: \url{https://scholar.google.com/citations?user=MbxmQhcAAAAJ&hl=en}
 
-  \item \heading[2020]{U.S. Census Field Enumerator}
-  \begin{subitems}
-  \item{Assist members of the community in Eastern North Carolina with completing the 2020 U.S. Census questionare.}
-  \end{subitems}
+\begin{hangparas}{.25in}{1}
+  Tutrone R, Lowentritt B, Neuman B, Donovan MJ, Hallmark E, \textbf{Cole TJ}, Yao Y, Biesecker C, Kumar S, Verma V, Sant GR. (2023). \textit{Prostate Cancer and Prostatic Diseases}, 26(3), 596-601.
 
-  \item \heading[2019]{Nerd Nite Boss}
-  \begin{subitems}
-  \item{Organizer of science communication event where members of the public present on topics of personal interest or expertise in a fun-yet-intellectual format}
-  \end{subitems}
+  Randall JR, DuPai CD, \textbf{Cole TJ}, Davidson G, Groover KE, Slater SL, Mavridou DA, Wilke CO, Davies BW. (2023). Designing and identifying \(\beta\)-hairpin peptide macrocycles with antibiotic potential. \textit{Science Advances}, 9 (2), eade0008.
 
-  \item \heading[2016-present]{ Bugfest}
-  \begin{subitems}
-  \item{Annual public showcase of local arthropod diversity at the Museum of Natural History, Raleigh NC}
-  \end{subitems}
+  Kulikova AV, Diaz DJ, Chen T, \textbf{Cole TJ}, Ellington AD, Wilke CO. (2023). Two sequence-and two structure-based ML models have learned different aspects of protein biochemistry. \textit{Scientific Reports}, 13 (1), 13280.
+
+  \textbf{Cole TJ}, Parker JK , Feller AL, Wilke  CO, Davies BW. (2022). Evidence for Widespread Class II Microcins in Enterobacterales Genomes. \textit{Applied and Environmental Microbiology} 88 (23), e01486-22.
   
-  \item \heading[2016-present]{Undergraduate student mentor }
-  \begin{subitems}
-  \item{research project coordinator for 5 undergraduate research projects}
-  \end{subitems}
-  \item \heading[2016]{Letters to a Pre-Scientist.  }
-  \begin{subitems}
-  \item{Mentoring network for middle school students in at-risk communities to encourage their pursuit of scientific careers }
-  \end{subitems}
+  Randall JR, Davidson G, Fleeman RM, Acosta SA, Riddington IM, \textbf{Cole TJ}, DuPai CD, Davies BW. (2022). Synthetic antibacterial discovery of symbah-1, a macrocyclic \(\beta\)-hairpin peptide antibiotic. \textit{IScience}, 25 (1).
   
-  \item \heading[2015]{ Spiders of Birmingham, AL  }
-  \begin{subitems}
-  \item{Bi-annual community seminar on how to collect and identify local spiders}
-  \end{subitems}
-  \item \heading[2015]{Sustainable fisheries practices}
-  \begin{subitems}
-  \item{Guest lecture at 4H chapter in Birmingham}
-  \end{subitems}
+  Brewer MS, \textbf{Cole TJ}. (2023). Killer knots: Molecular evolution of inhibitor cystine knot toxins in Wandering spiders (Araneae: Ctenidae). Toxins 15 (2), 112.
   
-   \item \heading[2013-2016]{ Shades Creek Cleanup }
-  \begin{subitems}
-  \item{Co-organizer for annual cleanup efforts in Birmingham AL}
-  \end{subitems}
+  \textbf{Cole TJ}, Brewer MS. (2019). toxify: a deep learning approach for classifying animal venom proteins. \textit{PeerJ}, 7, p.e7200.
+
+  \textbf{Cole TJ}, Brewer MS. (2018) FUSTr: A tool for finding gene Families Under Selection in Transcriptome databases. \textit{PeerJ}, 6, e4234.
+
+% \textbf{Cole TJ}, Hataway RA. (2016). Prescribed burning affects a measure of fitness in Ctenus
+% hibernalis (Araneae: Ctenidae) at Oak Mountain State Park, Shelby County,
+% Alabama. \textit{Southeastern Naturalist}. 15(4):646–652.
+
+\end{hangparas}
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \resheading{Society Memberships }
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% {\setstretch{1.5}
+% Society for Molecular Biology and Evolution  \cftdotfill{\cftdotsep} 2017-present\\
+% American Arachnological Society  \cftdotfill{\cftdotsep}2016-present\\
+% North American Society of Toxinology \cftdotfill{\cftdotsep} 2015-present\\
+% American Chemical Society  \cftdotfill{\cftdotsep} 2015-present\\
+% Association for Southeastern Biologists   \cftdotfill{\cftdotsep} 2015-present\\
+% Alabama Academy of Science  \cftdotfill{\cftdotsep} 2013-2016\\
+%  \par
+% }
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \resheading{Awards \& Grants }
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% {\setstretch{1.5}
+% American Museum of Natural History Theodore Roosevelt Memorial Grant (\$1,000) \cftdotfill{\cftdotsep}2017\\
+% East Carolina University biodiversity initiative internal grant for outreach (\$200) \cftdotfill{\cftdotsep}2017\\
+% NSF Graduate Research Fellowship  (\$132,000) \cftdotfill{\cftdotsep}2016\\
+% Brakefield Textbook scholarship (\$100) \cftdotfill{\cftdotsep}2016\\
+% NSF REU Summer research grant, University of Kansas (\$5,500) \cftdotfill{\cftdotsep}2015\\
+% NSF REU Summer research grant, Samford University (\$5,500) \cftdotfill{\cftdotsep}2014\\
+% Samford University Summer Propst Research scholar (\$2,000) \cftdotfill{\cftdotsep}2013\\ \par
+% }
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \resheading{Teaching}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{itemize}
+
+%   \item \heading[2018-2020]{Principles of Biology Laboratory, BIOL 1101, graduate teaching assistant}
+%     \begin{subitems}
+%       \item{East Carolina University}
+%       \item{Utilizing Argument Driven Inquiry to guide students in experiments related to molecular biology, bioenergetics, cellular structure, physiology, and the molecular basis of inheritance and control of gene expression}
+%     \end{subitems}
+    
+%     \item \heading[2017-2019]{Practical computing, BIOL 6220, guest lecturer}
+%     \begin{subitems}
+%       \item{East Carolina University}
+%       \item{Best practices for reproducibility in bioinformatics}
+%       \item{Phylogenetic tests for positive selection}
+%     \end{subitems}
+    
+%     \item \heading[2019]{Population Biology, BIOL 350, guest lecturer}
+%     \begin{subitems}
+%       \item{Samford University}
+%       \item{Techniques and principles of population genomics}
+%     \end{subitems}
+    
+    
+% \end{itemize}
+
+
+
+
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \resheading{Service \& Outreach}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{itemize}
+
+%   \item \heading[2020]{U.S. Census Field Enumerator}
+%   \begin{subitems}
+%   \item{Assist members of the community in Eastern North Carolina with completing the 2020 U.S. Census questionare.}
+%   \end{subitems}
+
+%   \item \heading[2019]{Nerd Nite Boss}
+%   \begin{subitems}
+%   \item{Organizer of science communication event where members of the public present on topics of personal interest or expertise in a fun-yet-intellectual format}
+%   \end{subitems}
+
+%   \item \heading[2016-present]{ Bugfest}
+%   \begin{subitems}
+%   \item{Annual public showcase of local arthropod diversity at the Museum of Natural History, Raleigh NC}
+%   \end{subitems}
   
-  \item \heading[2013-2016]{ Samford gives back}
-  \begin{subitems}
-  \item{Annual event to provide assistance with establishing community gardens}
-  \end{subitems}
+%   \item \heading[2016-present]{Undergraduate student mentor }
+%   \begin{subitems}
+%   \item{research project coordinator for 5 undergraduate research projects}
+%   \end{subitems}
+%   \item \heading[2016]{Letters to a Pre-Scientist.  }
+%   \begin{subitems}
+%   \item{Mentoring network for middle school students in at-risk communities to encourage their pursuit of scientific careers }
+%   \end{subitems}
+  
+%   \item \heading[2015]{ Spiders of Birmingham, AL  }
+%   \begin{subitems}
+%   \item{Bi-annual community seminar on how to collect and identify local spiders}
+%   \end{subitems}
+%   \item \heading[2015]{Sustainable fisheries practices}
+%   \begin{subitems}
+%   \item{Guest lecture at 4H chapter in Birmingham}
+%   \end{subitems}
+  
+%    \item \heading[2013-2016]{ Shades Creek Cleanup }
+%   \begin{subitems}
+%   \item{Co-organizer for annual cleanup efforts in Birmingham AL}
+%   \end{subitems}
+  
+%   \item \heading[2013-2016]{ Samford gives back}
+%   \begin{subitems}
+%   \item{Annual event to provide assistance with establishing community gardens}
+%   \end{subitems}
   
   
    
-  \end{itemize}
+%   \end{itemize}
    
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \resheading{Skills}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{itemize}
-\item
-	Programming and Markup Languages
-	\begin{itemize}
-		\item \textbf{ Expert:} Python, Go, R, Bash
-		\item \textbf{ Intermediate:}  Java, C\texttt{++}, HTML, CSS, Javascript, SQL, \LaTeX
-		% \resitem{{\bf Intermediate:} Java, \LaTeX, Python}
-	\end{itemize}
-\end{itemize}
+\begin{multicols}{2} % Change to {3} if you prefer three columns
+
+  \textbf{Bioinformatics Pipelines}  
+  Nextflow, nf-core tools, Snakemake  
+  
+  \textbf{Machine Learning:}  
+  scikit-learn, TensorFlow, PyTorch
+  
+  \textbf{Data Visualization:}  
+  tidyverse, ggplot2, plotly  
+  
+  \columnbreak
+  
+  \textbf{Cloud Computing:}  
+  AWS (S3, EC2, Batch), Seqera Platform  
+  
+  \textbf{Reproducible Analysis:}  
+  Conda, Docker  
+  
+  \textbf{Programming Languages:}  
+  Python, R, BASH, Go
+
+  \end{multicols}
+  
 	
 
 \end{document}
